@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-franc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-franc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-franc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-franc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-franc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-franc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-franc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-franc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-franc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-franc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-franc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-franc/build/coverage.html/index.html)
 
@@ -35,11 +35,46 @@
 ```json
 
 {
-    "name": "franc",
-    "threshold": 1000000,
-    "version": "3.1.0",
+    "author": {
+        "name": "Titus Wormer",
+        "url": "http://wooorm.com"
+    },
+    "bugs": {
+        "url": "https://github.com/wooorm/franc/issues"
+    },
+    "contributors": [
+        {
+            "name": "Titus Wormer",
+            "url": "http://wooorm.com"
+        },
+        {
+            "name": "Kamil Bielawski"
+        },
+        {
+            "name": "Andrew Pantyukhin"
+        },
+        {
+            "name": "Dmitriy Sobolev"
+        },
+        {
+            "name": "Jeff Huijsmans"
+        }
+    ],
+    "dependencies": {
+        "trigram-utils": "^0.1.0"
+    },
     "description": "Detect the language of text",
-    "license": "MIT",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "1fa57fded5be681820cab61018bd42dcdace5bd6",
+        "tarball": "https://registry.npmjs.org/franc/-/franc-3.1.0.tgz"
+    },
+    "files": [
+        "data.json",
+        "expressions.js",
+        "index.js"
+    ],
     "keywords": [
         "natural",
         "language",
@@ -48,25 +83,23 @@
         "detect",
         "guess"
     ],
-    "dependencies": {
-        "trigram-utils": "^0.1.0"
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "wooorm"
+        }
+    ],
+    "name": "franc",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wooorm/franc/tree/master/packages/franc"
     },
-    "files": [
-        "data.json",
-        "expressions.js",
-        "index.js"
-    ],
-    "repository": "https://github.com/wooorm/franc/tree/master/packages/franc",
-    "bugs": "https://github.com/wooorm/franc/issues",
-    "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-    "contributors": [
-        "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-        "Kamil Bielawski <k_bielawski@fastmail.fm>",
-        "Andrew Pantyukhin <infofarmer@gmail.com>",
-        "Dmitriy Sobolev <disobolev@icloud.com>",
-        "Jeff Huijsmans <jeffhuys@gmail.com>"
-    ],
-    "xo": false
+    "scripts": {},
+    "threshold": 1000000,
+    "version": "3.1.0",
+    "xo": false,
+    "bin": {}
 }
 ```
 
